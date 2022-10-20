@@ -1,3 +1,8 @@
+a{
+    cursor: url("images/pumpkin-2.png"), default;
+}
+
+
 * {
     box-sizing: border-box;
     margin: 0;
