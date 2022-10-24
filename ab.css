@@ -45,7 +45,6 @@ a{
 }
 
 #navbar__logo{
-    /* margin-right:100px; */
     margin-top:3.5rem;
     margin-left:2rem;
     color: #EF476F;
@@ -93,8 +92,6 @@ a{
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    /* background-color: #073b4c;
-    background-image: linear-gradient(to right, #A748F0 0%, #118AB2 100%); */
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -119,31 +116,25 @@ a{
 }
 
 .main__content__R h1{
-    /* color: #3E3D53; */
     color: #E6E6E6;
     margin: right 7px;
-    /* color: #FFD166; */
     font-size:1.5rem;
     font-style: italic;
     align-items:center;
     justify-content: start;
     display:flex;
-    /* position:absolute; */
     background-color: #073b4c;
     background-image: linear-gradient(to right, #A748F0 0%, #118AB2 100%);
 }
 
 
 .main__content__L h1{
-    /* color: #3E3D53; */
     color: #E6E6E6;
     margin: right 7px;
-    /* color: #FFD166; */
     font-size:1.5rem;
     align-items:center;
     justify-content: start;
     display:flex;
-    /* position:absolute; */
     background-image: linear-gradient(to right, #E05600 0%, #a748f0 100%);
 }
 
@@ -154,8 +145,6 @@ a{
     justify-content: flex-end;
     margin-right:100px;
     font-size:1rem;
-    /* margin-left: 30%; */
-    /* position:absolute; */
 }
 
 .main__content__L p{
@@ -165,15 +154,12 @@ a{
     justify-content: flex-end;
     margin-right:100px;
     font-size:1rem;
-    /* margin-left: 30%; */
-    /* position:absolute; */
+
 }
 
 
 .main__img__container{
-    /* align-items:left;
-    justify-content: left;
-    display:inline-block; */
+
     text-align:center;
 }   
 
@@ -207,7 +193,6 @@ a{
     width:60%;
     height:60%;
     opacity:80%;
-    /* background: #073b4c; */
     background:#118AB2;
     padding:10px;
 }
@@ -285,4 +270,45 @@ a{
     background-image: linear-gradient(to right,#a748f0 0%,#118AB2 100%);
     
 
+}
+
+.carousel{
+    display:flex;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width:none;
+    margin: 0 auto 0 auto;
+    width: 90vw;
+    height: fit-content;
+}
+
+#carousel::-webkit-scrollbar{
+    display:none;
+}
+
+.scroll{
+    width:40%;
+    height:40%;
+    background-color: #a748f0;
+}
+
+.footer{
+    background: #073b4c;
+    display: grid;
+    align-items: center;
+    justify-self: center;
+
+}
+
+.footer__container{
+    background-image:#073b4c;
+}
+
+.footer__container h1{
+    background: space;
+    margin-left:39rem;
+    margin-top: 5rem;
+    font-size:1rem;
+    color:#E6E6E6;
+    font-weight:300;
 }
